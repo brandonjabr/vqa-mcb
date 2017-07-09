@@ -82,7 +82,7 @@ def extract_features(target_data, output_data):
     print("DONE")
 
 if __name__ == '__main__':
-    extract_features('train2014', config.OUTPUT_PREFIX + 'train2014')
-    extract_features('val2014', config.OUTPUT_PREFIX + 'val2014')
-    extract_features('test2015', config.OUTPUT_PREFIX + 'test2015')
+    #extract_features('train2014', config.OUTPUT_PREFIX + 'train2014')
+    #extract_features('val2014', config.OUTPUT_PREFIX + 'val2014')
+    extract_features('test-dev2015', config.OUTPUT_PREFIX + 'test-dev2015')
     #extract_features('', config.OUTPUT_PREFIX + '')

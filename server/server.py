@@ -10,17 +10,17 @@ import os
 from skimage.transform import resize
 
 # constants
-GPU_ID = 3
-RESNET_MEAN_PATH = "../00_data_preprocess/ResNet_mean.binaryproto"
-RESNET_LARGE_PROTOTXT_PATH = "../00_data_preprocess/ResNet-152-448-deploy.prototxt"
-RESNET_CAFFEMODEL_PATH = "/x/daylen/ResNet-152-model.caffemodel"
+GPU_ID = 0
+RESNET_MEAN_PATH = "../preprocess/ResNet_mean.binaryproto"
+RESNET_LARGE_PROTOTXT_PATH = "../preprocess/ResNet-152-448-deploy.prototxt"
+RESNET_CAFFEMODEL_PATH = "../preprocess/ResNet-152-model.caffemodel"
 EXTRACT_LAYER = "res5c"
 EXTRACT_LAYER_SIZE = (2048, 14, 14)
 TARGET_IMG_SIZE = 448
-VQA_PROTOTXT_PATH = "/x/daylen/saved_models/multi_att_2_glove/proto_test_batchsize1.prototxt"
-VQA_CAFFEMODEL_PATH = "/x/daylen/saved_models/multi_att_2_glove/_iter_190000.caffemodel"
-VDICT_PATH = "/x/daylen/saved_models/multi_att_2_glove/vdict.json"
-ADICT_PATH = "/x/daylen/saved_models/multi_att_2_glove/adict.json"
+VQA_PROTOTXT_PATH = "/home/brandonjabr/git/vqa-mcb/JabrModel/proto_test_batchsize1.prototxt"
+VQA_CAFFEMODEL_PATH = "/home/brandonjabr/git/vqa-mcb/JabrModel/_iter_290000.caffemodel"
+VDICT_PATH = "/home/brandonjabr/git/vqa-mcb/JabrModel/vdict.json"
+ADICT_PATH = "/home/brandonjabr/git/vqa-mcb/JabrModel/adict.json"
 
 ALLOWED_EXTENSIONS = set(['jpg', 'jpeg', 'JPG', 'JPEG', 'png', 'PNG'])
 UPLOAD_FOLDER = './uploads/'

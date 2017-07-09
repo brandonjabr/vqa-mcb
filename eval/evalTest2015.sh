@@ -1,0 +1,1 @@
+python ensemble.py --ques_file /home/brandonjabr/CompleteDatasets/VQA/Questions/MultipleChoice_mscoco_test-dev2015_questions.json --gpu 0 --out_file /home/brandonjabr/CompleteDatasets/VQA/Results/MultipleChoice_mscoco_test-dev2015_Jabr_results.json ../JabrModel

@@ -1,5 +1,6 @@
+from __future__ import absolute_import
 import numpy as np
-from visual_genome_python_driver.src.local import *
+from src.local import *
 import re
 import pdb
 import json
@@ -10,7 +11,7 @@ import json
 AUGMENT = False
 
 # Path to genome data
-DATA_PATH = 'genome'
+DATA_PATH = '/home/brandonjabr/CompleteDatasets/genome'
 
 # List of words to prune
 ELIMINATE = ['on', 'the', 'a', 'in', 'inside', 'at', 'it', 'is', 'with', 'near', 'behind', 
@@ -90,9 +91,11 @@ def preprocess(aug=True):
 
 data = preprocess(AUGMENT)
 if AUGMENT:
-    with open('genome/question_answers_prepro_aug.json', 'w') as f:
+    with open('/home/brandonjabr/CompleteDatasets/genome/question_answers_prepro_aug.json', 'w') as f:
         json.dump(data, f)
 else:
-    with open('genome/question_answers_prepro.json', 'w') as f:
+  
+    with open('/home/brandonjabr/CompleteDatasets/genome/question_answers_prepro.json', 'w') as f:
         json.dump(data, f)
 
+    print "Successfully processed genome data!"
