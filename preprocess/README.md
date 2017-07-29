@@ -1,7 +1,5 @@
 # Data preprocessing
 
-Run './download_resnet152.sh' to download the necessary Caffe model files
-
 ## Extracting image features
 
 Edit config settings in `config.py`, then run `python extract_resnet.py`.
