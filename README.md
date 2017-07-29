@@ -1,5 +1,7 @@
 # Multimodal Compact Bilinear Pooling for VQA
 
+Original Paper: https://arxiv.org/abs/1606.01847
+
 ## Using my Pretrained Model
 
 You can download the model I trained and used here:
