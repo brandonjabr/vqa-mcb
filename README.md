@@ -1,4 +1,4 @@
-## Using the Pretrained Model
+# Using the Pretrained Model
 
 You can download the model I trained and used here:
 
