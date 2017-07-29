@@ -5,7 +5,9 @@ You can download the model I trained and used here:
 [Download](https://www.dropbox.com/s/7rdv1t11yrawosc/vqa-mcb-pretrained-290000.tar.gz?dl=0)
 
  **Train Time:** 5 days (~126 hours)
+ 
  **Training iterations:** ~290,000
+ 
  **GPU Used:** NVIDIA 1080 Ti (Pascal)
  
 # Multimodal Compact Bilinear Pooling for VQA
