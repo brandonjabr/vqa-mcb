@@ -22,8 +22,13 @@ You can upload your own images and ask the model your own questions. [Try the li
 
 In order to use our pretrained model:
 
-- Compile the `feature/20160617_cb_softattention` branch of [our fork of Caffe](https://github.com/akirafukui/caffe/). This branch contains Yang Gao’s Compact Bilinear layers ([dedicated repo](https://github.com/gy20073/compact_bilinear_pooling), [paper](https://arxiv.org/abs/1511.06062)) released under the [BDD license](https://github.com/gy20073/compact_bilinear_pooling/blob/master/caffe-20160312/LICENSE_BDD), and Ronghang Hu’s Soft Attention layers ([paper](https://arxiv.org/abs/1511.03745)) released under BSD 2-clause.
-- Download the [pre-trained ResNet-152 model](https://github.com/KaimingHe/deep-residual-networks).
+1) Download and compile my fork of Caffe, which includes the required MCB layers - https://github.com/brandonjabr/caffe-mcb 
+
+Note: You can easily download and compile this version of Caffe using my UbuntuDL bash script: https://github.com/brandonjabr/UbuntuDL
+
+I *highly* recommend using the above script to get Caffe working if you use Ubuntu 16.04
+
+2) Download the [pre-trained ResNet-152 model](https://github.com/KaimingHe/deep-residual-networks).
 
 If you want to train from scratch, do the above plus:
 
