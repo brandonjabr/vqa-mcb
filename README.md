@@ -22,15 +22,15 @@ You can upload your own images and ask the model your own questions. [Try the li
 
 In order to use our pretrained model:
 
-1) Download and compile my fork of Caffe, which includes the required MCB layers - https://github.com/brandonjabr/caffe-mcb 
+1) Download and compile my fork of Caffe, which includes the required MCB layers [here](https://github.com/brandonjabr/caffe-mcb)
 
-Note: You can easily download and compile this version of Caffe using my UbuntuDL bash script: https://github.com/brandonjabr/UbuntuDL
+**Note:** You can easily download and compile this version of Caffe using my [UbuntuDL bash script](https://github.com/brandonjabr/UbuntuDL)
 
-I *highly* recommend using the above script to get Caffe working if you use Ubuntu 16.04
 
 2) Download the [pre-trained ResNet-152 model](https://github.com/KaimingHe/deep-residual-networks).
 
-If you want to train from scratch, do the above plus:
+
+If you want to **train from scratch**, do the above plus:
 
 - Download the [VQA tools](https://github.com/VT-vision-lab/VQA).
 - Download the [VQA real-image dataset](http://visualqa.org/download.html).
