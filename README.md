@@ -1,3 +1,12 @@
+## Using the Pretrained Model
+
+You can download the model I trained and used here:
+
+[Download](https://www.dropbox.com/s/7rdv1t11yrawosc/vqa-mcb-pretrained-290000.tar.gz?dl=0)
+
+### Train Time: 5 days (~126 hours)
+### Training iterations: ~290,000
+### GPU Used: NVIDIA 1080 Ti (Pascal)
 # Multimodal Compact Bilinear Pooling for VQA
 
 This is the code that we wrote to train the state-of-the-art VQA models [described in our paper](https://arxiv.org/abs/1606.01847). Our ensemble of 7 models obtained **66.67%** on real open-ended test-dev and **70.24%** on real multiple-choice test-dev.
@@ -5,14 +14,6 @@ This is the code that we wrote to train the state-of-the-art VQA models [describ
 ## Live Demo
 
 You can upload your own images and ask the model your own questions. [Try the live demo!](http://demo.berkeleyvision.org/)
-
-## Pretrained Model
-
-We are releasing the “MCB + Genome + Att. + GloVe” model from the paper, which achieves **65.38%** on real open-ended test-dev. This is our best individual model.
-
-[Download](https://www.dropbox.com/s/o19k39lvt5cm0bc/multi_att_2_glove_pretrained.zip?dl=0)
-
-You can easily use this model with our evaluation code or with our demo server code.
 
 ## Prerequisites
 
